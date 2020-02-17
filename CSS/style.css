@@ -1,0 +1,176 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../Font-family/Roboto-Light.ttf);
+}
+
+body {
+  color: #6d7a7d;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+  margin-top: 0px;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+.osnova {
+  max-width: 1024px;
+  background-color: #fff;
+  min-width: 700px;
+  margin: 0px auto;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav ul li a {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  text-decoration: none;
+  align-items: center;
+  color: #6d7a7d;
+  font-size: 15px;
+}
+
+.nav ul li a:hover {
+  font-size: 17px;
+}
+
+.nav {
+  margin: 0px auto;
+  width: 780px;
+}
+
+.Fotka {
+  margin-top: 35px;
+  margin-left: 70px;
+}
+
+.Fotka img {
+  float: left;
+  position: absolute;
+}
+
+.Inf {
+  margin-left: 260px;
+  padding-top: 33px;
+}
+
+.Inf h1 {
+  margin-bottom: 0px;
+  font-size: 36px;
+}
+
+.Inf p {
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: #b3c0c3;
+}
+.contact {
+  padding-top: 33px;
+  background-color: #b3c0c4;
+  font-size: 18px;
+}
+
+.clear {
+  clear: none;
+}
+
+.contact p {
+  padding-bottom: 20px;
+  margin-left: 330px;
+  margin-top: -20px;
+  color: #fff;
+}
+
+#goal {
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 63px;
+}
+#goal h2 {
+  font-size: 20px;
+}
+#goal p {
+  font-size: 18px;
+}
+
+#skills h2 {
+  margin-left: 70px;
+  margin-right: 63px;
+  font-size: 20px;
+}
+
+#skills ul {
+  padding-left: 70px;
+  margin-right: 63px;
+  font-size: 18px;
+}
+
+#codeexamples h2 {
+  padding-left: 70px;
+  margin-right: 63px;
+  font-size: 20px;
+}
+
+.mudak {
+  background-color: #f9f9f9;
+  height: 600px;
+  overflow: auto;
+  margin: 0px 63px 0px 70px;
+}
+
+pre {
+  margin-left: -70px;
+}
+
+#education h2 {
+  margin-left: 70px;
+  margin-right: 63px;
+  font-size: 20px;
+}
+
+#education ul {
+  padding-left: 70px;
+  margin-right: 63px;
+  font-size: 18px;
+}
+
+#english {
+  margin-left: 70px;
+  margin-right: 63px;
+  font-size: 18px;
+}
+
+#english h2 {
+  font-size: 18px;
+}
+
+footer {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  background-color: #b3c0c4;
+}
+
+footer p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p {
+  margin-top: -45px;
+}
